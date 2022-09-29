@@ -14,20 +14,20 @@
 <body>
     <div class="wrapper">
         <header id="header">
-            <div class="topbar d-lg-flex justify-content-between align-items-center d-none">
+            <div class="topbar d-flex justify-content-between align-items-center">
                 <div class="item socials">
                     <a href=""><i class="bi bi-facebook"></i></a>
                     <a href=""><i class="bi bi-instagram"></i></a>
                     <a href=""><i class="bi bi-bag"></i></a>
                 </div>
-                <div class=" item freeShip text-center">
+                <div class="item d-lg-block d-none freeShip text-center">
                     <i class="bi bi-truck"></i>
                     <span>Miễn phí vận chuyển toàn quốc</span>
                 </div>
                 <div class="item phone text-right"><i class="bi bi-telephone"></i>096 1400 106</div>
             </div>
             <div class="navbar">
-                <ul class="d-menu item d-lg-flex d-none align-items-center">
+                <ul class="d-menu item d-lg-flex d-none align-items-center ">
                     <li><a class="navlink active" href="">Home</a></li>
                     <li class="hasSub">
                         <a class="navlink" href="">Shop<i class="bi bi-chevron-down"></i></a>
@@ -40,6 +40,32 @@
                     </li>
                     <li><a class="navlink" href="">Sharing</a></li>
                     <li><a class="navlink" href="">Contact</a></li>
+                </ul>
+                <div class="hamburger-menu d-lg-none d-block">
+                    <div class="bar-top"></div>
+                    <div class="bar-middle"></div>
+                    <div class="bar-bottom"></div>
+                </div>
+                <ul class="m-menu item d-lg-none align-items-center ">
+                    <li><a class="navlink active" href="">Home</a></li>
+                    <li class="hasSub">
+                        <a class="navlink d-flex justify-content-between" href="#"><span>Shop</span><i class="bi bi-chevron-down"></i></a>
+                        <ul class="subMenu">
+                            <li><a href="">Chăm sóc cơ thể</a></li>
+                            <li><a href="">Chăm sóc da mặt</a></li>
+                            <li><a href="">Không gian sống</a></li>
+                            <li><a href="">Bộ sản phẩm gợi ý</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="navlink" href="">Sharing</a></li>
+                    <li><a class="navlink" href="">Contact</a></li>
+                    <li><a class="navlink login" href="">Đăng nhập</a></li>                   
+                    <li class="search">
+                        <form class="search-box d-flex justify-content-between">
+                            <input type="search" name="focus" placeholder="Search" id="search-input" value="">
+                            <button ><i class="bi bi-search"></i></button>
+                        </form>
+                    </li>
                 </ul>          
                 <a href="" class="logo item text-center">Skinlax</a>
                 <ul class=" item controls d-lg-flex d-block align-items-center justify-content-end">
